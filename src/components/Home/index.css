@@ -1,0 +1,61 @@
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  height: 100vh;
+}
+.home-heading {
+  color: #334155;
+  font-size: 32px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.home-para {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+
+.home-img {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.home-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 52px;
+  }
+
+  .home-para {
+    font-size: 22px;
+  }
+
+  .home-img {
+    width: 80%;
+    margin-top: 30px;
+  }
+}
+
+.register-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+}
